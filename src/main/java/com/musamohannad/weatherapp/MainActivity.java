@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         DownloadTask getData = new DownloadTask();
-        getData.execute("https://samples.openweathermap.org/data/2.5/weather?lat=29&lon=95&appid=524f5bed27b2fee5b488c047beef0530");
+        getData.execute("http://api.openweathermap.org/data/2.5/weather?q=Houston,us?&units=imperial&APPID=524f5bed27b2fee5b488c047beef0530");
 
     }
 
